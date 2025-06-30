@@ -88,7 +88,6 @@ def replace_newlines(text: str) -> str:
     return re.sub("\n+", " ", text)
 
 score_dict = {
-    '__label__': 0, 
     '__label__Low': 0, 
     '__label__Mid': 1,
     '__label__High': 2
